@@ -1,0 +1,3211 @@
+do run
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000272035598755
+script duration name:analysis400_120_CDD_center seconds:559.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.90870666504e-05
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=6.103515625e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000139951705933
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000114917755127
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000153064727783
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=9.89437103271e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000102043151855
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.00012993812561
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.98838043213e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.00014591217041
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000236034393311
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128030776978
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.70227813721e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000126123428345
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.9168548584e-05
+executed snippet estimated_duration=384.0, duration=0.0191090106964
+script duration name:air_x5 seconds:384.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000239849090576
+executed snippet estimated_duration=4.0, duration=0.00155186653137
+Script duration 943.0
+Run total estimated duration= 944.000
+run duration: 0:15:44
+doing event level: 2
+17:41:04 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+create new session 4738260048
+close session 4738260048
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+adding queue conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+add default conditionals
+adding default conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run a-01-F-2169
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-F-2169
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+17:41:04 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=L2(CDD),H2,H1,AX,L1,L2, signals=0.00257,0.09272,0.18533,0.19238,-0.55258,-0.20770
+17:41:04 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing L2_CDD_
+evaluate ot="L2(CDD).inactive" t="L2_CDD_", ctx="{'L2_CDD_': False}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:41:04 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+17:41:04 -- stopping status monitor
+stop 4710694064
+Status monitor stopped
+Status monitor finished
+17:41:08 -- starting status monitor
+start 4710694064
+StatusMonitor period=3. Frequencies(state=1, checksum=3, lock=5, owner=5)
+start extraction
+do extraction
+Analysis started at 17:41:13.508089
+Extraction Started felix_air_x5.py
+17:41:13 -- ******* Extraction Started felix_air_x5.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x11c139ef0>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.39233398438e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000162839889526
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000111818313599
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128030776978
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.82012939453e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.98838043213e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000126123428345
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000125885009766
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000113010406494
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000181913375854
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000141143798828
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000148057937622
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.89301300049e-05
+executed snippet estimated_duration=384.0, duration=0.0194840431213
+Air Pipette x5
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.29289245605e-05
+Waiting for minibone access
+wait ('JanMiniboneFlag', 0) {}
+waiting for JanMiniboneFlag = 0
+Read JanMiniboneFlag ===>> 0
+finished waiting
+Minibone released
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+acquire ('FelixMiniboneFlag',) {'clear': True}
+acquire FelixMiniboneFlag
+Set FelixMiniboneFlag 1 ===>> OK
+FelixMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+minibone acquired
+executed snippet estimated_duration=0, duration=0.0473780632019
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000200033187866
+Prepare for Air Shot
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=4
+17:41:13 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Felix Ion Pump'}
+open name=--- desc=Felix Ion Pump
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open V ===>> OK
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+update switch state V True args=() kw={} ncanvase=4
+17:41:14 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open None (Felix Ion Pump) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to Minibone'}
+close name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close L ===>> OK
+GetIndicatorState L ===>> False
+change switch state (True, True)
+update switch state L False args=() kw={} ncanvase=4
+17:41:14 -- CLOSE  VALVE-L (Microbone to Minibone)
+-------------------------- close None (Microbone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Q ===>> OK
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+update switch state Q False args=() kw={} ncanvase=4
+17:41:15 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open C ===>> OK
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+update switch state C True args=() kw={} ncanvase=4
+17:41:15 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=4
+17:41:16 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open I ===>> OK
+set states for children of I. state=True
+handle state [('I', True)]
+update switch state I True args=() kw={'refresh': False} ncanvase=4
+GetIndicatorState I ===>> OK
+refresh_canvas_needed fired
+change switch state (True, True)
+update switch state I True args=() kw={} ncanvase=4
+17:41:16 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open N ===>> OK
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+update switch state N True args=() kw={} ncanvase=4
+17:41:17 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Bone to CO2 Laser'}
+close name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close D ===>> OK
+GetIndicatorState D ===>> False
+change switch state (True, True)
+update switch state D False args=() kw={} ncanvase=4
+17:41:17 -- CLOSE  VALVE-D (Bone to CO2 Laser)
+-------------------------- close None (Bone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Diode Laser'}
+close name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close B ===>> OK
+GetIndicatorState B ===>> False
+change switch state (True, True)
+update switch state B False args=() kw={} ncanvase=4
+17:41:18 -- CLOSE  VALVE-B (Bone to Diode Laser)
+-------------------------- close None (Bone to Diode Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=5.01054978371
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000164985656738
+Evacuate Pipette 2
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+update switch state P True args=() kw={} ncanvase=4
+17:41:18 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:41:19 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:41:20 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+set states for children of S. state=False
+handle state [('S', False)]
+update switch state S False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+State checksums do not match. Local:1909506929 Remote:-454096570
+State checksum failed
+set states for children of O. state=False
+set states for children of R. state=True
+handle state [('O', False), ('R', True)]
+update switch state O False args=() kw={'refresh': True} ncanvase=4
+update switch state R True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+set states for children of R. state=False
+handle state [('R', False)]
+update switch state R False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Join finished
+block finished. duration 15.0608971119
+executed snippet estimated_duration=48.0, duration=17.2881679535
+EvacPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000198841094971
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:41:36 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=4
+17:41:37 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+set states for children of S. state=True
+set states for children of R. state=True
+handle state [('S', True), ('R', True)]
+update switch state S True args=() kw={'refresh': True} ncanvase=4
+update switch state R True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+set states for children of R. state=False
+handle state [('R', False)]
+update switch state R False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Join finished
+block finished. duration 15.0732409954
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:41:52 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+set states for children of U. state=True
+handle state [('U', True)]
+update switch state U True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+executed snippet estimated_duration=51.0, duration=18.3446409702
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000130891799927
+Prepare for air expansion
+close () {'description': 'Bone to Turbo'}
+close name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close C ===>> OK
+GetIndicatorState C ===>> False
+change switch state (True, True)
+update switch state C False args=() kw={} ncanvase=4
+17:41:54 -- CLOSE  VALVE-C (Bone to Turbo)
+-------------------------- close None (Bone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=4
+17:41:56 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open I ===>> OK
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+update switch state I True args=() kw={} ncanvase=4
+17:41:56 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=3.0, duration=2.77733016014
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000142812728882
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=4
+17:41:57 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01105999947
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+set states for children of Y. state=True
+handle state [('Y', True)]
+update switch state Y True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetIndicatorState Y ===>> OK
+increment shot count 5504
+saved current shot count 5504
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:42:00 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0886819363
+executed snippet estimated_duration=51.0, duration=18.5561430454
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:42:15 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000194072723389
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:42:17 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=4
+17:42:18 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0754299164
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:42:34 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2521939278
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000133037567139
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=4
+17:42:35 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.00865912437
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 5505
+saved current shot count 5505
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:42:37 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0505170822
+executed snippet estimated_duration=51.0, duration=17.9332129955
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:42:53 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 3
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000200986862183
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:42:54 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=4
+17:42:56 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0568819046
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:43:11 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2574970722
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000151872634888
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=4
+17:43:13 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01760601997
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 5506
+saved current shot count 5506
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:43:15 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0799241066
+executed snippet estimated_duration=51.0, duration=18.0400028229
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:43:31 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 4
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000198841094971
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:43:32 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=4
+17:43:34 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0522999763
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:43:49 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2482788563
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000140905380249
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=4
+17:43:50 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01930689812
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 5507
+saved current shot count 5507
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:43:53 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0418410301
+executed snippet estimated_duration=51.0, duration=17.9316720963
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:44:08 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 5
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000180959701538
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:44:10 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+update switch state Z True args=() kw={} ncanvase=4
+17:44:11 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0716869831
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+update switch state Z False args=() kw={} ncanvase=4
+17:44:27 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2516698837
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000145196914673
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=4
+17:44:28 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01416802406
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 5508
+saved current shot count 5508
+change switch state (True, True)
+update switch state Y True args=() kw={} ncanvase=4
+17:44:31 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0594539642
+executed snippet estimated_duration=51.0, duration=17.9918279648
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+update switch state Y False args=() kw={} ncanvase=4
+17:44:46 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=389.0, duration=214.287638903
+felix_air_x5.py completed successfully
+GetAchievedOutput ===>> No Response
+Requested Output= 0.000
+Achieved Output=  0.000
+GetResponseBlob ===>> [25][247][178]N[00][00][00][00][00]O[161]=[00][00][250]DC[253][04]@[00][00][250]D}v[130]@[00][00]...
+GetOutputBlob ===>> [25][247][178]N[00][00][00][00][00]O[161]=e[188][175]AC[253][04]@[00][00][00][00]}v[130]@[00][00]...
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+Extraction Finished
+17:44:47 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+17:44:47 -- Sending spectrometer configuration
+======== Sending configuration ========
+SetZFocus 1.65 ===>> OK
+SetHV 9900.0 ===>> OK
+SetZSymmetry 3.35 ===>> OK
+SetExtractionLens 63.57 ===>> OK
+SetIonRepeller -5.15 ===>> OK
+SetElectronEnergy 125.02 ===>> OK
+SetYSymmetry 38.07 ===>> OK
+send trap current 250.0
+GetParameter Trap Current Readback ===>> 248.606848562534
+SetParameter Trap Current Set,250.0 ===>> OK
+updating mftable name argon
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+============ MFtable ===========
+Isotope  H2     H1     AX     L1     L2     L2(CDD)
+Ar40     3.7651 3.8403 3.9184 3.9998 4.1077 4.0932
+Ar39     3.6907 3.7651 3.8415 3.9243 4.0270 4.0122
+Ar36     3.4644 3.4168 3.6059 3.6818 3.7906 3.7651
+================================
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+======== Configuration Finished ========
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetParameter Trap Current Readback ===>> 248.159311481414
+GetHighVoltage ===>> 9900
+start measurement
+do measurement
+L#=a-01-F analysis type=air
+Measurement Started felix_analysis400_120_CDD_center.py
+17:44:48 -- ******* Measurement Started felix_analysis400_120_CDD_center.py *******
+state changed from extraction to measurement
+setting trap, emission, spec, defl, and gains
+GetExtractionLens ===>> 63.57
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetZFocus ===>> 1.65
+GetDeflection H2 (CDD) ===>> 3250
+GetDeflection H1 (CDD) ===>> 3250
+GetDeflection AX (CDD) ===>> 3250
+GetDeflection L1 (CDD) ===>> 3250
+GetDeflection L2 (CDD) ===>> 0
+GetGain H2 ===>> 0.9809305
+GetGain H1 ===>> 0.9706
+GetGain AX ===>> 0.96269
+GetGain L1 ===>> 0.970094835296087
+GetGain L2 ===>> 0.967359864778375
+GetGain H2(CDD) ===>> 0
+GetGain H1(CDD) ===>> 0
+GetGain AX(CDD) ===>> 0
+GetGain L1(CDD) ===>> 0
+GetGain L2(CDD) ===>> 0
+GetParameter Trap Current Readback ===>> 247.823658670573
+GetParameter Source Current Readback ===>> 895.712567905756
+pre measurement save
+New frame /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+testing...
+no interpolation path defined
+executed snippet estimated_duration=590.4304, duration=0.000224828720093
+unknown measurement script
+activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2(CDD)') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+clear isotope group
+setting isotope det=H2, iso=Ar40
+setting isotope det=H1, iso=Ar39
+setting isotope det=AX, iso=Ar38
+setting isotope det=L1, iso=Ar37
+setting isotope det=L2(CDD), iso=Ar36
+setting previous blanks
+ - setting Ar40 blank 0.474+/-0.018
+ - setting Ar36 blank 0.00394+/-0.00023
+ - setting Ar37 blank 0.002+/-0.011
+ - setting Ar38 blank 0.035+/-0.013
+ - setting Ar39 blank -0.009+/-0.022
+load analysis view
+position_magnet ('Ar40',) {'detector': 'H2'}
+detector Detector(H2)
+POSITION Ar40 H2
+setting detector H2 to Ar40 (39.9624)
+setting detector H1 to Ar39 (38.8624)
+setting detector AX to Ar38 (37.9624)
+setting detector L1 to Ar37 (36.9624)
+setting detector L2 to Ar36 (35.8624)
+setting detector H2(CDD) to Ar40 (39.8624)
+setting detector H1(CDD) to Ar39 (38.8624)
+setting detector AX(CDD) to Ar38 (37.8624)
+setting detector L1(CDD) to Ar37 (36.8624)
+setting detector L2(CDD) to Ar36 (35.9624)
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.56720193e-04   9.47812314e-02   3.87414975e-01]
+H2 map mass to dac 39.9624 >> 3.76512
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76512) on H2
+setting magnet DAC
+current  : 3.765124
+requested: 3.765120
+Delta Dac: 0.000004
+Checking detector protection. dv=0.00000
+SetMagnetDAC 3.76512 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x12e4370b0>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x11c3ce770>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x13100eef0>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+equilibrate () {'delay': 3, 'inlet': 'H', 'outlet': 'V', 'eqtime': 30.0}
+Equilibration Started
+17:44:48 -- ******* Equilibration Started *******
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close V ===>> OK
+GetIndicatorState V ===>> False
+change switch state (True, True)
+update switch state V False args=() kw={} ncanvase=4
+17:44:49 -- CLOSE  VALVE-V (Felix Ion Pump)
+waiting 3s before opening inlet value ('H',)
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open H ===>> OK
+GetIndicatorState H ===>> OK
+change switch state (True, True)
+update switch state H True args=() kw={} ncanvase=4
+17:44:52 -- OPEN   VALVE-H (Felix Inlet)
+equilibrating for 30.0sec
+set_time_zero () {}
+sniff (30.0,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /sniff/Ar40 (Group) u'' table H2
+add group /sniff/Ar39 (Group) u'' table H1
+add group /sniff/Ar38 (Group) u'' table AX
+add group /sniff/Ar37 (Group) u'' table L1
+add group /sniff/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+measuring sniff. ncounts=30.0
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+17:45:18 -- collecting point 25
+Equilibration Finished
+17:45:22 -- ******* Equilibration Finished *******
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=4
+17:45:22 -- CLOSE  VALVE-H (Felix Inlet)
+Post Equilibration Started felix_pump_extraction_line.py
+17:45:22 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000298023223877
+executed snippet estimated_duration=4.0, duration=0.00225615501404
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000277042388916
+Pump Bone
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+update switch state H False args=() kw={} ncanvase=4
+17:45:22 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+is_closed ('A',) {}
+is A () closed?
+is closed False
+close () {'description': 'CO2 Laser to Bone'}
+close name=--- desc=CO2 Laser to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks F
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-F(CO2 Laser to Bone) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Bone) result=[(True, False)]
+action=close, ok=True, locked=[True]
+sleep (1,) {}
+SLEEP 1.0
+close () {'description': 'CO2 Laser to Roughing'}
+close name=--- desc=CO2 Laser to Roughing
+checking ownership. requestor=129.138.12.137
+check software interlocks G
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-G(CO2 Laser to Roughing) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Roughing) result=[(True, False)]
+action=close, ok=True, locked=[True]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open C ===>> OK
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+update switch state C True args=() kw={} ncanvase=4
+17:45:24 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+waiting for write to finish
+measurement finished
+estimated time: 31.457 actual time: :31.632
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+set_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "Ar40" to "('Parabolic', 'SEM')"
+set "Ar36" to "('Parabolic', 'SEM')"
+set "Ar37" to "('linear', 'SEM')"
+set "Ar38" to "('linear', 'SEM')"
+set "Ar39" to "('Parabolic', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "H2" to "('average', 'SEM')"
+set "L2(CDD)" to "('average', 'SEM')"
+set "L1" to "('average', 'SEM')"
+set "AX" to "('average', 'SEM')"
+set "H1" to "('average', 'SEM')"
+multicollect () {'integration_time': 1.048576, 'ncounts': 400}
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /signal/Ar40 (Group) u'' table H2
+add group /signal/Ar39 (Group) u'' table H1
+add group /signal/Ar38 (Group) u'' table AX
+add group /signal/Ar37 (Group) u'' table L1
+add group /signal/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+measuring signal. ncounts=400
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open N ===>> OK
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+update switch state N True args=() kw={} ncanvase=4
+"signal" increment series count="2" fit count="1" regressing="True"
+17:45:24 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Diode Laser'}
+open name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open B ===>> OK
+starting measurement
+GetIndicatorState B ===>> OK
+change switch state (True, True)
+update switch state B True args=() kw={} ncanvase=4
+17:45:25 -- OPEN   VALVE-B (Bone to Diode Laser)
+-------------------------- open None (Bone to Diode Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to CO2 Laser'}
+open name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open D ===>> OK
+GetIndicatorState D ===>> OK
+change switch state (True, True)
+update switch state D True args=() kw={} ncanvase=4
+17:45:25 -- OPEN   VALVE-D (Bone to CO2 Laser)
+-------------------------- open None (Bone to CO2 Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+set_resource () {'name': 'CO2PumpTimeFlag', 'value': 30}
+Set CO2PumpTimeFlag 30 ===>> OK
+release ('FelixCO2Flag',) {}
+release FelixCO2Flag
+Set FelixCO2Flag 0 ===>> OK
+executed snippet estimated_duration=6.0, duration=4.31278204918
+PumpBone.py completed successfully
+gosub finished
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.19480895996e-05
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+Pump minibone
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+update switch state E True args=() kw={} ncanvase=4
+17:45:27 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+update switch state P True args=() kw={} ncanvase=4
+17:45:27 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Quad Inlet'}
+open name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Q ===>> OK
+GetIndicatorState Q ===>> OK
+change switch state (True, True)
+update switch state Q True args=() kw={} ncanvase=4
+17:45:28 -- OPEN   VALVE-Q (Quad Inlet)
+-------------------------- open None (Quad Inlet) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close I ===>> OK
+GetIndicatorState I ===>> False
+change switch state (True, True)
+update switch state I False args=() kw={} ncanvase=4
+17:45:28 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+set_resource () {'name': 'MinibonePumpTimeFlag', 'value': 30}
+Set MinibonePumpTimeFlag 30 ===>> OK
+release ('FelixMiniboneFlag',) {}
+release FelixMiniboneFlag
+Set FelixMiniboneFlag 0 ===>> OK
+executed snippet estimated_duration=0, duration=2.1297659874
+PumpMinibone.py completed successfully
+gosub finished
+executed snippet estimated_duration=4.0, duration=6.45431518555
+felix_pump_extraction_line.py completed successfully
+Post Equilibration Finished
+17:45:29 -- ******* Post Equilibration Finished *******
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:45:50 -- collecting point 25
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of O. state=True
+handle state [('O', True)]
+update switch state O True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:46:16 -- collecting point 50
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:46:42 -- collecting point 75
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:47:09 -- collecting point 100
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of U. state=False
+handle state [('U', False)]
+update switch state U False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:47:35 -- collecting point 125
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:48:01 -- collecting point 150
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:48:28 -- collecting point 175
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:48:54 -- collecting point 200
+set states for children of O. state=False
+set states for children of S. state=False
+handle state [('O', False), ('S', False)]
+update switch state O False args=() kw={'refresh': True} ncanvase=4
+update switch state S False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of R. state=True
+handle state [('R', True)]
+update switch state R True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+set states for children of S. state=True
+handle state [('S', True)]
+update switch state S True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:49:20 -- collecting point 225
+set states for children of R. state=False
+handle state [('R', False)]
+update switch state R False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+set states for children of U. state=True
+handle state [('U', True)]
+update switch state U True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:49:46 -- collecting point 250
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:50:13 -- collecting point 275
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:50:39 -- collecting point 300
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:51:05 -- collecting point 325
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:51:32 -- collecting point 350
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:51:58 -- collecting point 375
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:52:24 -- collecting point 400
+waiting for write to finish
+measurement finished
+estimated time: 419.430 actual time: :420.586
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+baselines () {'settling_time': 15.0, 'detector': 'H2', 'mass': 39.862, 'ncounts': 120}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+detector Detector(H2)
+POSITION 39.862 H2
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.56720193e-04   9.47812314e-02   3.87414975e-01]
+H2 map mass to dac 39.862 >> 3.75766141492
+GetHighVoltage ===>> 9900
+positioning 39.862 (3.75766141492) on H2
+setting magnet DAC
+current  : 3.765120
+requested: 3.757661
+Delta Dac: 0.007459
+Checking detector protection. dv=0.00746
+SetMagnetDAC 3.75766141492 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+Delaying 15.0s for detectors to settle
+Join finished
+measuring baseline. ncounts=120
+"baseline" increment series count="2" fit count="1" regressing="True"
+starting measurement
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:53:07 -- collecting point 25
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:53:33 -- collecting point 50
+set states for children of O. state=True
+handle state [('O', True)]
+update switch state O True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:53:59 -- collecting point 75
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:54:25 -- collecting point 100
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+waiting for write to finish
+measurement finished
+estimated time: 125.829 actual time: :126.155
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+activate_detectors ('H1', 'L2(CDD)') {'peak_center': True}
+peak_center () {'detector': 'L2(CDD)', 'config_name': 'CDD_on_36', 'integration_time': 1.048576, 'isotope': 'Ar36'}
+peak center: mean=3.59559755264 threshold=1.0
+peak center started
+setup peak center. detector=['L2(CDD)', 'H1'], isotope=Ar36
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x11d750d70>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12306ca70>]
+setting integration time = 0.524288
+SetIntegrationTime 0.524288 ===>> OK
+Mapping mass to dac mass func: "parabolic"
+L2(CDD) map mass coeffs = [ -3.27842094e-04   1.07025236e-01   3.39806374e-01]
+L2(CDD) map mass to dac 35.9675 >> 3.76512
+GetDeflection L2 (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+do peak center. <pychron.spectrometer.jobs.peak_center.PeakCenter object at 0x130bf9c50>
+doing pc
+starting peak center. center dac= 3.76512 step_width=2e-05
+width = 2e-05
+get scan parameters. half-width=0.001,window=0.001, i=0, scalar=1
+Scan parameters center=3.76512 width=0.00200 (3.76412 - 3.76612)
+Moving to starting dac 3.76412
+setting magnet DAC
+current  : 3.757661
+requested: 3.764120
+Delta Dac: 0.006459
+Checking detector protection. dv=0.00646
+SetMagnetDAC 3.76412 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+Wait until signal near baseline. tol= 0.0. timeout= 10
+set states for children of U. state=False
+handle state [('U', False)]
+update switch state U False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Peak center failed to move to a baseline position
+_do_sweep sm= 3.76412, em= 3.76612, stm= 2e-05
+calculated step values: start=3.76412, end=3.76612, width=2e-05, nsteps=101.0
+setting magnet DAC
+current  : 3.764120
+requested: 3.764120
+Delta Dac: 0.000000
+Checking detector protection. dv=0.00000
+set_dac. change=False
+setting magnet DAC
+current  : 3.764120
+requested: 3.764140
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764140
+requested: 3.764160
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764160
+requested: 3.764181
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764181
+requested: 3.764201
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764201
+requested: 3.764221
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764221
+requested: 3.764241
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764241
+requested: 3.764261
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764261
+requested: 3.764282
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764282
+requested: 3.764302
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764302
+requested: 3.764322
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764322
+requested: 3.764342
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764342
+requested: 3.764362
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764362
+requested: 3.764383
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764383
+requested: 3.764403
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764403
+requested: 3.764423
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764423
+requested: 3.764443
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764443
+requested: 3.764463
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764463
+requested: 3.764484
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764484
+requested: 3.764504
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764504
+requested: 3.764524
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764524
+requested: 3.764544
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764544
+requested: 3.764564
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764564
+requested: 3.764585
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764585
+requested: 3.764605
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764605
+requested: 3.764625
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764625
+requested: 3.764645
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764645
+requested: 3.764665
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764665
+requested: 3.764686
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764686
+requested: 3.764706
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764706
+requested: 3.764726
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764726
+requested: 3.764746
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764746
+requested: 3.764766
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764766
+requested: 3.764787
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764787
+requested: 3.764807
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764807
+requested: 3.764827
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764827
+requested: 3.764847
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764847
+requested: 3.764867
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764867
+requested: 3.764888
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764888
+requested: 3.764908
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764908
+requested: 3.764928
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764928
+requested: 3.764948
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764948
+requested: 3.764968
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764968
+requested: 3.764989
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.764989
+requested: 3.765009
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765009
+requested: 3.765029
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765029
+requested: 3.765049
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765049
+requested: 3.765069
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765069
+requested: 3.765090
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765090
+requested: 3.765110
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765110
+requested: 3.765130
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765130
+requested: 3.765150
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765150
+requested: 3.765171
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765171
+requested: 3.765191
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765191
+requested: 3.765211
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765211
+requested: 3.765231
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765231
+requested: 3.765251
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765251
+requested: 3.765272
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765272
+requested: 3.765292
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765292
+requested: 3.765312
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765312
+requested: 3.765332
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765332
+requested: 3.765352
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765352
+requested: 3.765373
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765373
+requested: 3.765393
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765393
+requested: 3.765413
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765413
+requested: 3.765433
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765433
+requested: 3.765453
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765453
+requested: 3.765474
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765474
+requested: 3.765494
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765494
+requested: 3.765514
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765514
+requested: 3.765534
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765534
+requested: 3.765554
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765554
+requested: 3.765575
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765575
+requested: 3.765595
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765595
+requested: 3.765615
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765615
+requested: 3.765635
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765635
+requested: 3.765655
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765655
+requested: 3.765676
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765676
+requested: 3.765696
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765696
+requested: 3.765716
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765716
+requested: 3.765736
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+set states for children of O. state=False
+set states for children of S. state=False
+handle state [('O', False), ('S', False)]
+update switch state O False args=() kw={'refresh': True} ncanvase=4
+update switch state S False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765736
+requested: 3.765756
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765756
+requested: 3.765777
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765777
+requested: 3.765797
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+set states for children of R. state=True
+handle state [('R', True)]
+update switch state R True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765797
+requested: 3.765817
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765817
+requested: 3.765837
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765837
+requested: 3.765857
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765857
+requested: 3.765878
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765878
+requested: 3.765898
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765898
+requested: 3.765918
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765918
+requested: 3.765938
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765938
+requested: 3.765958
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+set states for children of S. state=True
+handle state [('S', True)]
+update switch state S True args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765958
+requested: 3.765979
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765979
+requested: 3.765999
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765999
+requested: 3.766019
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766019
+requested: 3.766039
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766039
+requested: 3.766059
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766059
+requested: 3.766080
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766080
+requested: 3.766100
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766100
+requested: 3.766120
+Delta Dac: 0.000020
+Checking detector protection. dv=0.00002
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+result of _do_sweep=True
+result of _calculate_peak_center=([3.764691142284569, 3.7651179959919836, 3.7655448496993982], [2.5942104176756606, 3.5419020039223432, 2.6201103907191747], 3.7652342284569138, 3.5419020039223432)
+new center pos Detector(L2(CDD)) (Ar36) @ 3.76511799599
+GetHighVoltage ===>> 9900
+GetDeflection L2 (CDD) ===>> 0
+dac uncorrected for HV and deflection 3.76511799599
+update mftable L2(CDD) Ar36 3.76511799599 message=automated run peakcenter
+get initial guess parabolic
+get initial guess parabolic
+sweep finished
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+dump mftable to /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+add to repo msg=modified - automated run peakcenter
+locally archiving mftable
+setting magnet DAC
+current  : 3.766120
+requested: 3.765118
+Delta Dac: 0.001002
+Checking detector protection. dv=0.00100
+SetMagnetDAC 3.76511799599 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+flush and close file /Users/obama/PychronDev/data/isotopes/a1/8abb4a-2117-49d0-b256-84583e5d1ea4.h5
+finished measure script
+executed snippet estimated_duration=590.4304, duration=721.402324915
+felix_analysis400_120_CDD_center.py completed successfully
+Measurement Finished
+17:56:49 -- ******* Measurement Finished *******
+Post Measurement Started felix_pump_ms.py
+17:56:49 -- ******* Post Measurement Started felix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.79357147217e-05
+Pumping spectrometer
+open () {'name': 'V'}
+open name=V desc=---
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open V ===>> OK
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+update switch state V True args=() kw={} ncanvase=4
+17:56:49 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open V () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.383431911469
+felix_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+17:56:49 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end measurement
+state changed from measurement to success
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+LabspyClient not enabled. Could not retrieve enironmentals
+persistence save...
+persistence save - db
+post measurement save
+4786783920 connecting to database sqlite://@/
+connected to db sqlite://@/
+create new session 4786783920
+close session 4786783920
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+massspec enabled True
+create new session 4794523920
+MassSpec Database Version: 16.0
+close session 4794523920
+saving post measurement to secondary database
+saving to massspec database 129.138.12.160/massspecdata
+setting labnumber to a-01-F
+setting aliquot to 2169
+setting step to 
+setting uuid to a18abb4a-2117-49d0-b256-84583e5d1ea4
+setting irradpos to a-01-F
+setting extract_device to Fusions Diode
+setting tray to 
+setting position to 
+setting power_requested to 0.0
+setting extract_value to 0.0
+setting duration to 0.0
+setting duration_at_request to 0.0
+setting first_stage_delay to 0.0
+setting cleanup to 0.0
+setting comment to center 36 on CDD
+setting irradiation to NoIrradiation
+setting level to A
+setting irradiation_level to A
+setting sample to air
+setting material to Gas
+setting project to REFERENCES
+setting mass_spectrometer to Felix
+no attribute chron_dosages
+no attribute production_ratios
+no attribute interference_corrections
+no attribute production_name
+no attribute j
+Reference Isotope=Ar40
+Reference Detector=H2
+%%%%%%%%%%%%%%%%%%%% Comment: center 36 on CDD %%%%%%%%%%%%%%%%%%%
+adding isotope Ar40 H2
+add baseline dbdet= Ar40. original det= H2
+get baseline data Ar40 H2
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1313d6950> len t=120
+baseline Ar40. v=-0.0475376924683, e=0.00991822274015
+get signal data Ar40 H2
+Get data signal Ar40 1131.02+/-0.11 len t=400
+adding isotope Ar39 H1
+add baseline dbdet= Ar39. original det= H1
+get baseline data Ar39 H1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1313d6b10> len t=120
+baseline Ar39. v=-0.0692312924629, e=0.0110333620466
+get signal data Ar39 H1
+Get data signal Ar39 0.065+/-0.021 len t=400
+adding isotope Ar38 AX
+add baseline dbdet= Ar38. original det= AX
+get baseline data Ar38 AX
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1313d6cd0> len t=120
+baseline Ar38. v=-0.134877959371, e=0.010059998441
+get signal data Ar38 AX
+Get data signal Ar38 0.708+/-0.012 len t=400
+adding isotope Ar37 L1
+add baseline dbdet= Ar37. original det= L1
+get baseline data Ar37 L1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1313d6e90> len t=120
+baseline Ar37. v=-0.524677814684, e=0.00988093477286
+get signal data Ar37 L1
+Get data signal Ar37 0.022+/-0.012 len t=400
+adding isotope Ar36 L2(CDD)
+add baseline dbdet= Ar36. original det= L2(CDD)
+get baseline data Ar36 L2(CDD)
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1313e1090> len t=120
+baseline Ar36. v=0.0, e=0.0
+get signal data Ar36 L2(CDD)
+Get data signal Ar36 3.832+/-0.004 len t=400
+a-01-F-2169 added analysis time 0.57793879509s
+analysis added to mass spec database
+mass spec save time= 0.597
+persistence save - dvc
+================= post measurement started
+create new session 4710319024
+close session 4710319024
+set states for children of R. state=False
+handle state [('R', False)]
+update switch state R False args=() kw={'refresh': False} ncanvase=4
+refresh_canvas_needed fired
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+add to repo msg=modified - 44c6f8761147de90179e8a3952e48831c78a9a46.json
+add to repo msg=modified - -F-2169.json
+add to repo msg=modified - -F-2169.dat.json
+add to repo msg=modified - -F-2169.blan.json
+add to repo msg=modified - -F-2169.inte.json
+add to repo msg=modified - -F-2169.icfa.json
+add to repo msg=modified - -F-2169.base.json
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air171/a-01/tags/-F-2169.tags.json
+add to repo msg=modified - -F-2169.peak.json
+add to repo msg=modified - -F-2169.extr.json
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air171/a-01/monitor/-F-2169.moni.json
+commit message=<COLLECTION>
+set states for children of U. state=True
+handle state [('U', True)]
+update switch state U True args=() kw={'refresh': False} ncanvase=4
+add to repo msg=modified - -F-2169.inte.json
+refresh_canvas_needed fired
+add to repo msg=modified - -F-2169.base.json
+commit message=<ISOEVO> default collection fits
+add to repo msg=modified - -F-2169.blan.json
+commit message=<BLANKS> preceding ba-01-F-806
+add to repo msg=modified - -F-2169.icfa.json
+commit message=<ICFactor> default
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x1303f0b90>
+pushing to remote=origin, url=https://github.com
+no changes to meta repo
+create new session 4710319024
+add association Felix_air171
+get identifier "a-01-F"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x122814c10>
+close session 4710319024
+================= post measurement finished
+17:57:01 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals post_run_actions
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+loading queue conditionals post_run_terminations
+queue conditionals path /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading conditionals from /Users/obama/PychronDev/queue_conditionals/normal.yaml
+loading system conditionals post_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Checking default post run terminations n=1
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+17:57:02 -- ******* Post Run Check Passed *******
+17:57:02 -- Automated run a-01-F-2169 success duration: 957.853 s
+----------------- finish -----------------
+----------------- stop -----------------
+retroactive repository identifiers disabled
+finish run. runs completed=4
+update duration runid=a-01-F-2169, duration=957.853471041, md5=137a73cf
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000350952148438
+script duration name:analysis400_120_CDD_center seconds:559.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.6968460083e-05
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.70227813721e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000185966491699
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000165939331055
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000185966491699
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000103950500488
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128984451294
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000170946121216
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000140905380249
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000194072723389
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.0001220703125
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000174999237061
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000142097473145
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.00016188621521
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128984451294
+executed snippet estimated_duration=384.0, duration=0.0663061141968
+script duration name:air_x5 seconds:384.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000255107879639
+executed snippet estimated_duration=4.0, duration=0.00231885910034
+Script duration 943.0
+Run total estimated duration= 944.000
+loading script "felix_analysis400_120 no center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000205993652344
+script duration name:analysis400_120 no center seconds:559.0
+pump_ms in script context. using previous estimated duration
+loading script "felix_analysis400_120 no center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_cocktail_x3.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=7.20024108887e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000200033187866
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.0001380443573
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000185012817383
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=9.98973846436e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000143051147461
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000171899795532
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000112056732178
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000200033187866
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000134944915771
+executed snippet estimated_duration=244.0, duration=0.0502741336823
+script duration name:cocktail_x3 seconds:244.0
+pump_extraction_line in script context. using previous estimated duration
+Script duration 803.0
+Run total estimated duration= 804.000
+analysis400_120 no center in script context. using previous estimated duration
+script duration name:analysis400_120 no center seconds:559.0
+cocktail_x3 in script context. using previous estimated duration
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+air_x5 in script context. using previous estimated duration
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+analysis400_120_CDD_center in script context. using previous estimated duration
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+loading script "felix_analysis400_120.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000241041183472
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+analysis400_120 in script context. using previous estimated duration
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:cocktail_x3 seconds:244.0
+Script duration 803.0
+Run total estimated duration= 804.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+script duration name:analysis400_120 seconds:559.0
+script duration name:air_x5 seconds:384.0
+Script duration 943.0
+Run total estimated duration= 944.000
+nruns=38 before=5.0, run_dur=33212.0, btw=2220.0
+write rem/ex queues
+/Users/obama/PychronDev/experiments/rem/Airs_Cocktails.rem.txt
+/Users/obama/PychronDev/experiments/rem/Airs_Cocktails.ex.txt
+doing event level: 3
