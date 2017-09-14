@@ -1,0 +1,3848 @@
+do run
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000269889831543
+script duration name:analysis400_120_CDD_center seconds:559.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.40938568115e-05
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=7.20024108887e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000164985656738
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000118017196655
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000147104263306
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=9.10758972168e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000111103057861
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000144958496094
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000105142593384
+executed snippet estimated_duration=174.0, duration=0.0108759403229
+script duration name:air_x2 seconds:174.0
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000878095626831
+executed snippet estimated_duration=4.0, duration=0.0023500919342
+Script duration 733.0
+Run total estimated duration= 734.000
+run duration: 0:12:14
+doing event level: 2
+01:17:58 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+create new session 4752150256
+close session 4752150256
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+add default conditionals
+adding default conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run a-01-F-2380
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-F-2380
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+01:17:58 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=L2(CDD),H2,H1,AX,L1,L2, signals=0.00000,-0.21634,-0.08785,-0.16121,-0.61853,-0.27523
+01:17:58 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing L2_CDD_
+evaluate ot="L2(CDD).inactive" t="L2_CDD_", ctx="{'L2_CDD_': False}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:17:58 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+01:17:58 -- stopping status monitor
+stop 4717265456
+Status monitor stopped
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Status monitor finished
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:18:02 -- starting status monitor
+start 4717265456
+StatusMonitor period=3. Frequencies(state=1, checksum=3, lock=5, owner=5)
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+start extraction
+do extraction
+Analysis started at 01:18:07.529631
+Extraction Started felix_air_x2.py
+01:18:07 -- ******* Extraction Started felix_air_x2.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x13c0c6a70>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=7.60555267334e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000144004821777
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000113010406494
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000130176544189
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=8.39233398438e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.20295715332e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000128030776978
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.98838043213e-05
+executed snippet estimated_duration=174.0, duration=0.0103180408478
+Air Pipette x2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=7.41481781006e-05
+Waiting for minibone access
+wait ('JanMiniboneFlag', 0) {}
+waiting for JanMiniboneFlag = 0
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Read JanMiniboneFlag ===>> 0
+finished waiting
+Minibone released
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+get handler 129.138.12.153,1061 3
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+acquire ('FelixMiniboneFlag',) {'clear': True}
+acquire FelixMiniboneFlag
+get handler 129.138.12.153,1061 1.0
+Set FelixMiniboneFlag 1 ===>> OK
+FelixMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+minibone acquired
+executed snippet estimated_duration=0, duration=0.0583300590515
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000176191329956
+Prepare for Air Shot
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close H ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState H ===>> False
+change switch state (True, True)
+01:18:08 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Felix Ion Pump'}
+open name=--- desc=Felix Ion Pump
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open V ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+01:18:08 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open None (Felix Ion Pump) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to Minibone'}
+close name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close L ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState L ===>> False
+change switch state (True, True)
+01:18:09 -- CLOSE  VALVE-L (Microbone to Minibone)
+-------------------------- close None (Microbone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Q ===>> OK
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+01:18:09 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open C ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+01:18:10 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Open E ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+01:18:10 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open I ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+01:18:11 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open N ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+01:18:12 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Bone to CO2 Laser'}
+close name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close D ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState D ===>> False
+change switch state (True, True)
+get handler 192.168.2.2,4567 3
+01:18:12 -- CLOSE  VALVE-D (Bone to CO2 Laser)
+-------------------------- close None (Bone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Diode Laser'}
+close name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close B ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState B ===>> False
+change switch state (True, True)
+get handler 129.138.12.153,1061 3
+01:18:13 -- CLOSE  VALVE-B (Bone to Diode Laser)
+-------------------------- close None (Bone to Diode Laser) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=6.04093718529
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000168085098267
+Evacuate Pipette 2
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+01:18:14 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+01:18:14 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+01:18:16 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Join finished
+block finished. duration 15.1549749374
+executed snippet estimated_duration=48.0, duration=17.7118599415
+EvacPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000203132629395
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of Y. state=False
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+get handler 192.168.2.2,4567 3
+refresh_canvas_needed fired
+01:18:31 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+01:18:33 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Join finished
+block finished. duration 15.0989911556
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+01:18:48 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+executed snippet estimated_duration=51.0, duration=18.674738884
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000128030776978
+Prepare for air expansion
+close () {'description': 'Bone to Turbo'}
+close name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close C ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState C ===>> False
+change switch state (True, True)
+01:18:50 -- CLOSE  VALVE-C (Bone to Turbo)
+-------------------------- close None (Bone to Turbo) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open E ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+01:18:52 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Open I ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+01:18:53 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=3.0, duration=3.02521705627
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000133991241455
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+01:18:53 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 2.02618503571
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+increment shot count 6082
+saved current shot count 6082
+change switch state (True, True)
+01:18:56 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0876448154
+executed snippet estimated_duration=51.0, duration=18.2382941246
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+01:19:12 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+Shot 2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000201940536499
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+01:19:13 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+01:19:15 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Join finished
+block finished. duration 15.0785529613
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Z ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+01:19:30 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+get handler 192.168.2.2,4567 3
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+executed snippet estimated_duration=51.0, duration=18.69404006
+FillPipette2.py completed successfully
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000148057937622
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> False
+change switch state (True, True)
+01:19:32 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Join finished
+block finished. duration 2.12516689301
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Y ===>> OK
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> OK
+increment shot count 6083
+saved current shot count 6083
+change switch state (True, True)
+01:19:35 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+get handler 129.138.12.153,1061 3
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Join finished
+block finished. duration 15.0982279778
+executed snippet estimated_duration=51.0, duration=18.3679218292
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=129.138.12.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close Y ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+01:19:50 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+executed snippet estimated_duration=176.0, duration=104.542510986
+felix_air_x2.py completed successfully
+get handler 129.138.12.134,8000 3
+GetAchievedOutput ===>> No Response
+Requested Output= 0.000
+Achieved Output=  0.000
+get handler 129.138.12.134,8000 3
+GetResponseBlob ===>> Ht[179]N[00][00][00][00] }[193]=[00][00][250]D[180]t[06]@[00][00][250]D[194]Y[131]@[00][00][250]D...
+get handler 129.138.12.134,8000 3
+GetOutputBlob ===>> Ht[179]N[00][00][00][00] }[193]=[169][176][229]A[180]t[06]@[00][00][00][00][194]Y[131]@[00][00][0...
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+not connected to db mysql://felixexp@129.138.12.160/labspy
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Enviromentals: {'lab_humiditys': [{'device': 'EnvironmentalMonitor',
+                    'name': 'Lab Hum.',
+                    'pub_date': '2017-09-14T01:19:05',
+                    'title': 'iServer Hum.',
+                    'value': 40.1}],
+ 'lab_pneumatics': [{'device': 'AirPressure',
+                     'name': 'Pressure',
+                     'pub_date': '2017-09-14T01:19:06',
+                     'title': None,
+                     'value': 98.925},
+                    {'device': 'AirPressure2',
+                     'name': 'Pressure2',
+                     'pub_date': '2017-09-14T01:19:06',
+                     'title': None,
+                     'value': 100.56124}],
+ 'lab_temperatures': [{'device': 'Coldfinger',
+                       'name': 'ColdFinger Temp.',
+                       'pub_date': '2017-09-13T22:55:25',
+                       'title': None,
+                       'value': -196.0},
+                      {'device': 'EnvironmentalMonitor',
+                       'name': 'Lab Temp.',
+                       'pub_date': '2017-09-14T00:33:33',
+                       'title': 'iServer Temp.',
+                       'value': 72.6},
+                      {'device': 'Chiller',
+                       'name': 'Coolant Temp.',
+                       'pub_date': '2017-09-14T00:26:37',
+                       'title': None,
+                       'value': 18.0}]}
+Extraction Finished
+01:19:54 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+01:19:54 -- Sending spectrometer configuration
+======== Sending configuration ========
+SetZFocus 1.65 ===>> OK
+SetHV 9900.0 ===>> OK
+SetZSymmetry 3.35 ===>> OK
+SetExtractionLens 63.57 ===>> OK
+SetIonRepeller -5.15 ===>> OK
+SetElectronEnergy 125.02 ===>> OK
+SetYSymmetry 38.07 ===>> OK
+send trap current 250.0
+GetParameter Trap Current Readback ===>> 248.718732832815
+SetParameter Trap Current Set,250.0 ===>> OK
+updating mftable name argon
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+============ MFtable ===========
+Isotope  H2     H1     AX     L1     L2     L2(CDD)
+Ar40     3.7666 3.8418 3.9199 4.0013 4.1090 4.0946
+Ar39     3.6922 3.7666 3.8430 3.9258 4.0283 4.0135
+Ar36     3.4658 3.4183 3.6074 3.6833 3.7919 3.7664
+================================
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+======== Configuration Finished ========
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetParameter Trap Current Readback ===>> 247.488005859733
+GetHighVoltage ===>> 9900
+start measurement
+do measurement
+L#=a-01-F analysis type=air
+Measurement Started felix_analysis400_120_CDD_center.py
+01:19:55 -- ******* Measurement Started felix_analysis400_120_CDD_center.py *******
+state changed from extraction to measurement
+setting trap, emission, spec, defl, and gains
+GetExtractionLens ===>> 63.57
+get handler 192.168.2.2,4567 3
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetZFocus ===>> 1.65
+GetDeflection H2 (CDD) ===>> 3250
+GetDeflection H1 (CDD) ===>> 3250
+GetDeflection AX (CDD) ===>> 3250
+GetDeflection L1 (CDD) ===>> 3250
+GetDeflection L2 (CDD) ===>> 0
+GetGain H2 ===>> 0.9809305
+GetGain H1 ===>> 0.9706
+GetGain AX ===>> 0.96269
+GetGain L1 ===>> 0.970094835296087
+GetGain L2 ===>> 0.967359864778375
+GetGain H2(CDD) ===>> 0
+GetGain H1(CDD) ===>> 0
+GetGain AX(CDD) ===>> 0
+GetGain L1(CDD) ===>> 0
+GetGain L2(CDD) ===>> 0
+GetParameter Trap Current Readback ===>> 247.935542940853
+GetParameter Source Current Readback ===>> 883.912470243545
+pre measurement save
+New frame /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+testing...
+no interpolation path defined
+executed snippet estimated_duration=590.4304, duration=0.000310897827148
+unknown measurement script
+activate_detectors ('H2', 'H1', 'AX', 'L1', 'L2(CDD)') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+clear isotope group
+setting isotope det=H2, iso=Ar40
+setting isotope det=H1, iso=Ar39
+setting isotope det=AX, iso=Ar38
+setting isotope det=L1, iso=Ar37
+setting isotope det=L2(CDD), iso=Ar36
+setting previous blanks
+ - setting Ar40 blank 0.132+/-0.020
+ - setting Ar36 blank 0.00243+/-0.00017
+ - setting Ar37 blank 0.002+/-0.011
+ - setting Ar38 blank -0.002+/-0.013
+ - setting Ar39 blank -0.018+/-0.024
+load analysis view
+position_magnet ('Ar40',) {'detector': 'H2'}
+detector Detector(H2)
+POSITION Ar40 H2
+molweights={'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
+setting detector H2 to Ar40 (39.9624)
+setting detector H1 to Ar39 (38.8624)
+setting detector AX to Ar38 (37.9624)
+setting detector L1 to Ar37 (36.9624)
+setting detector L2 to Ar36 (35.8624)
+setting detector H2(CDD) to Ar40 (39.8624)
+setting detector H1(CDD) to Ar39 (38.8624)
+setting detector AX(CDD) to Ar38 (37.8624)
+setting detector L1(CDD) to Ar37 (36.8624)
+setting detector L2(CDD) to Ar36 (35.9624)
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.56720193e-04   9.47812314e-02   3.88864975e-01]
+H2 map mass to dac 39.9624 >> 3.76657
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76657) on H2
+setting magnet DAC
+current  : 3.759111
+requested: 3.766570
+Delta Dac: 0.007459
+Checking detector protection. dv=0.00746
+SetMagnetDAC 3.76657 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+equilibrate () {'delay': 3, 'inlet': 'H', 'outlet': 'V', 'eqtime': 30.0}
+Equilibration Started
+01:19:55 -- ******* Equilibration Started *******
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close V ===>> OK
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetIndicatorState V ===>> False
+change switch state (True, True)
+01:19:56 -- CLOSE  VALVE-V (Felix Ion Pump)
+waiting 3s before opening inlet value ('H',)
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x1af5c4110>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x1b2e60170>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x1afbdd590>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 L1 Ar37
+setting label 4 L2(CDD) Ar36
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open H ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of H. state=True
+get handler 129.138.12.153,1061 3
+GetIndicatorState H ===>> OK
+change switch state (True, True)
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+01:19:59 -- OPEN   VALVE-H (Felix Inlet)
+set_time_zero () {}
+equilibrating for 30.0sec
+sniff (30.0,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /sniff/Ar40 (Group) u'' table H2
+add group /sniff/Ar39 (Group) u'' table H1
+add group /sniff/Ar38 (Group) u'' table AX
+add group /sniff/Ar37 (Group) u'' table L1
+add group /sniff/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+measuring sniff. ncounts=30.0
+"sniff" increment series count="1" fit count="0" regressing="False"
+get handler 192.168.2.2,4567 3
+starting measurement
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:20:25 -- collecting point 25
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+Equilibration Finished
+01:20:29 -- ******* Equilibration Finished *******
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close H ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState H ===>> False
+change switch state (True, True)
+01:20:29 -- CLOSE  VALVE-H (Felix Inlet)
+Post Equilibration Started felix_pump_extraction_line.py
+01:20:29 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000262975692749
+executed snippet estimated_duration=4.0, duration=0.00218486785889
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000282049179077
+Pump Bone
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+get handler 129.138.12.153,1061 3
+Close H ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState H ===>> False
+change switch state (True, True)
+01:20:30 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+is_closed ('A',) {}
+is A () closed?
+is closed False
+close () {'description': 'CO2 Laser to Bone'}
+close name=--- desc=CO2 Laser to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks F
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-F(CO2 Laser to Bone) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Bone) result=[(True, False)]
+action=close, ok=True, locked=[True]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+close () {'description': 'CO2 Laser to Roughing'}
+close name=--- desc=CO2 Laser to Roughing
+checking ownership. requestor=129.138.12.137
+check software interlocks G
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-G(CO2 Laser to Roughing) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Roughing) result=[(True, False)]
+action=close, ok=True, locked=[True]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open C ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+01:20:31 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+waiting for write to finish
+measurement finished
+estimated time: 31.457 actual time: :31.678
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+set_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "Ar40" to "('Parabolic', 'SEM')"
+set "Ar36" to "('Parabolic', 'SEM')"
+set "Ar37" to "('linear', 'SEM')"
+set "Ar38" to "('linear', 'SEM')"
+set "Ar39" to "('Parabolic', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "H2" to "('average', 'SEM')"
+set "L2(CDD)" to "('average', 'SEM')"
+set "L1" to "('average', 'SEM')"
+set "AX" to "('average', 'SEM')"
+set "H1" to "('average', 'SEM')"
+multicollect () {'integration_time': 1.048576, 'ncounts': 400}
+build tables- signal [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group /signal/Ar40 (Group) u'' table H2
+add group /signal/Ar39 (Group) u'' table H1
+add group /signal/Ar38 (Group) u'' table AX
+add group /signal/Ar37 (Group) u'' table L1
+add group /signal/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=129.138.12.137
+check software interlocks N
+interlocks []
+measuring signal. ncounts=400
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open N ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+01:20:32 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+"signal" increment series count="2" fit count="1" regressing="True"
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Diode Laser'}
+open name=--- desc=Bone to Diode Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+starting measurement
+Open B ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of B. state=True
+get handler 129.138.12.153,1061 3
+GetIndicatorState B ===>> OK
+change switch state (True, True)
+01:20:32 -- OPEN   VALVE-B (Bone to Diode Laser)
+-------------------------- open None (Bone to Diode Laser) result=[(True, True)]
+refresh_canvas_needed fired
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to CO2 Laser'}
+open name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=129.138.12.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open D ===>> OK
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetIndicatorState D ===>> OK
+change switch state (True, True)
+01:20:33 -- OPEN   VALVE-D (Bone to CO2 Laser)
+-------------------------- open None (Bone to CO2 Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+get handler 192.168.2.2,4567 3
+set_resource () {'name': 'CO2PumpTimeFlag', 'value': 30}
+get handler 129.138.12.153,1061 3
+Set CO2PumpTimeFlag 30 ===>> OK
+release ('FelixCO2Flag',) {}
+release FelixCO2Flag
+get handler 129.138.12.153,1061 3
+Set FelixCO2Flag 0 ===>> OK
+executed snippet estimated_duration=6.0, duration=4.75124979019
+PumpBone.py completed successfully
+gosub finished
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.31537628174e-05
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+get handler 129.138.12.153,1061 3
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+Pump minibone
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+get handler 129.138.12.153,1061 3
+Open E ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+01:20:35 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open P ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+01:20:35 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Quad Inlet'}
+open name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open Q ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of Q. state=True
+get handler 129.138.12.153,1061 3
+GetIndicatorState Q ===>> OK
+change switch state (True, True)
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+01:20:36 -- OPEN   VALVE-Q (Quad Inlet)
+-------------------------- open None (Quad Inlet) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+get handler 129.138.12.153,1061 3
+Close I ===>> OK
+get handler 129.138.12.153,1061 3
+GetIndicatorState I ===>> False
+change switch state (True, True)
+01:20:37 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+get handler 192.168.2.2,4567 3
+action=close, ok=True, locked=[False]
+set_resource () {'name': 'MinibonePumpTimeFlag', 'value': 30}
+get handler 129.138.12.153,1061 3
+Set MinibonePumpTimeFlag 30 ===>> OK
+release ('FelixMiniboneFlag',) {}
+release FelixMiniboneFlag
+get handler 129.138.12.153,1061 3
+Set FelixMiniboneFlag 0 ===>> OK
+executed snippet estimated_duration=0, duration=2.6688170433
+PumpMinibone.py completed successfully
+gosub finished
+executed snippet estimated_duration=4.0, duration=7.54783296585
+felix_pump_extraction_line.py completed successfully
+Post Equilibration Finished
+01:20:37 -- ******* Post Equilibration Finished *******
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:20:57 -- collecting point 25
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:21:24 -- collecting point 50
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+01:21:50 -- collecting point 75
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+01:22:16 -- collecting point 100
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:22:43 -- collecting point 125
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:23:09 -- collecting point 150
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:23:35 -- collecting point 175
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+01:24:02 -- collecting point 200
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:24:28 -- collecting point 225
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:24:54 -- collecting point 250
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:25:21 -- collecting point 275
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+01:25:47 -- collecting point 300
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:26:13 -- collecting point 325
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:26:40 -- collecting point 350
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:27:06 -- collecting point 375
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+01:27:32 -- collecting point 400
+get handler 192.168.2.2,4567 3
+waiting for write to finish
+measurement finished
+estimated time: 419.430 actual time: :421.280
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+baselines () {'settling_time': 15.0, 'detector': 'H2', 'mass': 39.862, 'ncounts': 120}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+detector Detector(H2)
+POSITION 39.862 H2
+Mapping mass to dac mass func: "parabolic"
+H2 map mass coeffs = [ -2.56720193e-04   9.47812314e-02   3.88864975e-01]
+H2 map mass to dac 39.862 >> 3.75911141492
+GetHighVoltage ===>> 9900
+get handler 192.168.2.2,4567 3
+positioning 39.862 (3.75911141492) on H2
+setting magnet DAC
+current  : 3.766570
+requested: 3.759111
+Delta Dac: 0.007459
+Checking detector protection. dv=0.00746
+SetMagnetDAC 3.75911141492 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+Delaying 15.0s for detectors to settle
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of O. state=True
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Join finished
+measuring baseline. ncounts=120
+get handler 192.168.2.2,4567 3
+"baseline" increment series count="2" fit count="1" regressing="True"
+get handler 129.138.12.153,1061 3
+starting measurement
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of E. state=False
+set states for children of Q. state=False
+set states for children of P. state=False
+get handler 192.168.2.2,4567 3
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:28:15 -- collecting point 25
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of L. state=True
+set states for children of T. state=False
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of W. state=True
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+set states for children of W. state=False
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+01:28:42 -- collecting point 50
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of U. state=False
+get handler 192.168.2.2,4567 3
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of W. state=True
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:29:08 -- collecting point 75
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of O. state=False
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of R. state=True
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+01:29:34 -- collecting point 100
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of R. state=False
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of U. state=True
+set states for children of T. state=True
+refresh_canvas_needed fired
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of I. state=True
+set states for children of L. state=False
+get handler 192.168.2.2,4567 3
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+get handler 129.138.12.153,1061 3
+set states for children of Q. state=True
+set states for children of P. state=True
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+waiting for write to finish
+measurement finished
+get handler 129.138.12.153,1061 3
+estimated time: 125.829 actual time: :126.467
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+activate_detectors ('H2', 'L2(CDD)') {'peak_center': True}
+peak_center () {'detector': 'L2(CDD)', 'config_name': 'CDD_on_36', 'integration_time': 1.048576, 'isotope': 'Ar36'}
+peak center: mean=1.17670575814 threshold=1.0
+peak center started
+setup peak center. detector=['L2(CDD)', 'H2'], isotope=Ar36
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x1b5905530>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x13c0a3a70>]
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x1b5905530>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x13c0a3a70>]
+setting integration time = 0.524288
+SetIntegrationTime 0.524288 ===>> OK
+Mapping mass to dac mass func: "parabolic"
+L2(CDD) map mass coeffs = [ -3.27842094e-04   1.07025236e-01   3.41136374e-01]
+L2(CDD) map mass to dac 35.9675 >> 3.76645
+GetDeflection L2 (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+do peak center. <pychron.spectrometer.jobs.peak_center.PeakCenter object at 0x11cb70830>
+doing pc
+starting peak center. center dac= 3.76645 step_width=3e-05
+width = 3e-05
+get scan parameters. half-width=0.001,window=0.001, i=0, scalar=1
+Scan parameters center=3.76645 width=0.00200 (3.76545 - 3.76745)
+Moving to starting dac 3.76545
+setting magnet DAC
+current  : 3.759111
+requested: 3.765450
+Delta Dac: 0.006339
+Checking detector protection. dv=0.00634
+SetMagnetDAC 3.76545 ===>> OK
+Magnet settling time: 0.500 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+Wait until signal near baseline. tol= 0.0. timeout= 10
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+set states for children of W. state=False
+refresh_canvas_needed fired
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Peak center failed to move to a baseline position
+_do_sweep sm= 3.76545, em= 3.76745, stm= 3e-05
+calculated step values: start=3.76545, end=3.76745, width=3e-05, nsteps=67.6666666667
+setting magnet DAC
+current  : 3.765450
+requested: 3.765450
+Delta Dac: 0.000000
+Checking detector protection. dv=0.00000
+set_dac. change=False
+setting magnet DAC
+current  : 3.765450
+requested: 3.765480
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765480
+requested: 3.765511
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765511
+requested: 3.765541
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765541
+requested: 3.765571
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+get handler 192.168.2.2,4567 3
+setting magnet DAC
+current  : 3.765571
+requested: 3.765602
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765602
+requested: 3.765632
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765632
+requested: 3.765662
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765662
+requested: 3.765692
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765692
+requested: 3.765723
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765723
+requested: 3.765753
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765753
+requested: 3.765783
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765783
+requested: 3.765814
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765814
+requested: 3.765844
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765844
+requested: 3.765874
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765874
+requested: 3.765905
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765905
+requested: 3.765935
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765935
+requested: 3.765965
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765965
+requested: 3.765995
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765995
+requested: 3.766026
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766026
+requested: 3.766056
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766056
+requested: 3.766086
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+get handler 192.168.2.2,4567 3
+set_dac. change=True
+setting magnet DAC
+current  : 3.766086
+requested: 3.766117
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766117
+requested: 3.766147
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766147
+requested: 3.766177
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766177
+requested: 3.766208
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766208
+requested: 3.766238
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 129.138.12.153,1061 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766238
+requested: 3.766268
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766268
+requested: 3.766298
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766298
+requested: 3.766329
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766329
+requested: 3.766359
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766359
+requested: 3.766389
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766389
+requested: 3.766420
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766420
+requested: 3.766450
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766450
+requested: 3.766480
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 129.138.12.153,1061 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766480
+requested: 3.766511
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766511
+requested: 3.766541
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766541
+requested: 3.766571
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 192.168.2.2,4567 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766571
+requested: 3.766602
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766602
+requested: 3.766632
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766632
+requested: 3.766662
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766662
+requested: 3.766692
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+setting magnet DAC
+current  : 3.766692
+requested: 3.766723
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766723
+requested: 3.766753
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766753
+requested: 3.766783
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766783
+requested: 3.766814
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 192.168.2.2,4567 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766814
+requested: 3.766844
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766844
+requested: 3.766874
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766874
+requested: 3.766905
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766905
+requested: 3.766935
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766935
+requested: 3.766965
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 129.138.12.153,1061 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766965
+requested: 3.766995
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766995
+requested: 3.767026
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767026
+requested: 3.767056
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 192.168.2.2,4567 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767056
+requested: 3.767086
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767086
+requested: 3.767117
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767117
+requested: 3.767147
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767147
+requested: 3.767177
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767177
+requested: 3.767208
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767208
+requested: 3.767238
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767238
+requested: 3.767268
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767268
+requested: 3.767298
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767298
+requested: 3.767329
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767329
+requested: 3.767359
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767359
+requested: 3.767389
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767389
+requested: 3.767420
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767420
+requested: 3.767450
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+get handler 129.138.12.153,1061 3
+Magnet settling time: 1.049 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+result of _do_sweep=True
+result of _calculate_peak_center=([3.7660291583166332, 3.7664319639278556, 3.766834769539078], [0.87453773032845616, 1.1707888099426056, 0.87190765572549622], 3.7665401803607215, 1.1707888099426056)
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+new center pos Detector(L2(CDD)) (Ar36) @ 3.76643196393
+get handler 192.168.2.2,4567 3
+GetHighVoltage ===>> 9900
+GetDeflection L2 (CDD) ===>> 0
+dac uncorrected for HV and deflection 3.76643196393
+update mftable L2(CDD) Ar36 3.76643196393 message=automated run peakcenter
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+get initial guess parabolic
+dump mftable to /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon.csv
+add to repo msg=modified - automated run peakcenter
+sweep finished
+locally archiving mftable
+setting magnet DAC
+current  : 3.767450
+requested: 3.766432
+Delta Dac: 0.001018
+Checking detector protection. dv=0.00102
+SetMagnetDAC 3.76643196393 ===>> OK
+Magnet settling time: 0.500 0.500
+get handler 192.168.2.2,4567 3
+Magnet settling complete
+set_dac. change=True
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+flush and close file /Users/obama/PychronDev/data/isotopes/e3/9d5fcc-7d72-48d2-b964-577a49ea50cc.h5
+finished measure script
+executed snippet estimated_duration=590.4304, duration=689.024344921
+felix_analysis400_120_CDD_center.py completed successfully
+Measurement Finished
+01:31:24 -- ******* Measurement Finished *******
+Post Measurement Started felix_pump_ms.py
+01:31:24 -- ******* Post Measurement Started felix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.69548797607e-05
+Pumping spectrometer
+open () {'name': 'V'}
+open name=V desc=---
+checking ownership. requestor=129.138.12.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+get handler 129.138.12.153,1061 3
+Open V ===>> OK
+get handler 129.138.12.153,1061 3
+set states for children of V. state=True
+get handler 129.138.12.153,1061 3
+refresh_canvas_needed fired
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+01:31:24 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open V () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.424770832062
+felix_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+01:31:24 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end measurement
+state changed from measurement to success
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+not connected to db mysql://felixexp@129.138.12.160/labspy
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+Enviromentals: {'lab_humiditys': [{'device': 'EnvironmentalMonitor',
+                    'name': 'Lab Hum.',
+                    'pub_date': '2017-09-14T01:29:13',
+                    'title': 'iServer Hum.',
+                    'value': 39.1}],
+ 'lab_pneumatics': [{'device': 'AirPressure',
+                     'name': 'Pressure',
+                     'pub_date': '2017-09-14T01:31:09',
+                     'title': None,
+                     'value': 86.325},
+                    {'device': 'AirPressure2',
+                     'name': 'Pressure2',
+                     'pub_date': '2017-09-14T01:31:09',
+                     'title': None,
+                     'value': 86.78332}],
+ 'lab_temperatures': [{'device': 'Coldfinger',
+                       'name': 'ColdFinger Temp.',
+                       'pub_date': '2017-09-13T22:55:25',
+                       'title': None,
+                       'value': -196.0},
+                      {'device': 'EnvironmentalMonitor',
+                       'name': 'Lab Temp.',
+                       'pub_date': '2017-09-14T00:33:33',
+                       'title': 'iServer Temp.',
+                       'value': 72.6},
+                      {'device': 'Chiller',
+                       'name': 'Coolant Temp.',
+                       'pub_date': '2017-09-14T00:26:37',
+                       'title': None,
+                       'value': 18.0}]}
+persistence save...
+persistence save - db
+post measurement save
+5802383504 connecting to database sqlite://@/
+connected to db sqlite://@/
+create new session 5802383504
+close session 5802383504
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+massspec enabled True
+create new session 5733165296
+MassSpec Database Version: 16.0
+close session 5733165296
+saving post measurement to secondary database
+saving to massspec database 129.138.12.160/massspecdata
+setting labnumber to a-01-F
+setting aliquot to 2380
+setting step to 
+setting uuid to e39d5fcc-7d72-48d2-b964-577a49ea50cc
+setting irradpos to a-01-F
+setting extract_device to Fusions Diode
+setting tray to 
+setting position to 
+setting power_requested to 0.0
+setting extract_value to 0.0
+setting duration to 0.0
+setting duration_at_request to 0.0
+setting first_stage_delay to 0.0
+setting cleanup to 0.0
+setting comment to 
+setting irradiation to NoIrradiation
+setting level to A
+setting irradiation_level to A
+setting sample to air
+setting material to Gas
+setting project to REFERENCES
+setting mass_spectrometer to Felix
+no attribute chron_dosages
+no attribute production_ratios
+no attribute interference_corrections
+no attribute production_name
+no attribute j
+Reference Isotope=Ar40
+Reference Detector=H2
+%%%%%%%%%%%%%%%%%%%% Comment:  %%%%%%%%%%%%%%%%%%%
+adding isotope Ar40 H2
+add baseline dbdet= Ar40. original det= H2
+get baseline data Ar40 H2
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1b39b7410> len t=120
+baseline Ar40. v=-0.0396002962238, e=0.0099648377089
+get signal data Ar40 H2
+Get data signal Ar40 374.40+/-0.05 len t=400
+adding isotope Ar39 H1
+add baseline dbdet= Ar39. original det= H1
+get baseline data Ar39 H1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1b39b75d0> len t=120
+baseline Ar39. v=-0.0505668896586, e=0.0130001907669
+get signal data Ar39 H1
+Get data signal Ar39 0.039+/-0.025 len t=400
+get handler 129.138.12.153,1061 3
+adding isotope Ar38 AX
+add baseline dbdet= Ar38. original det= AX
+get baseline data Ar38 AX
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1b39b7790> len t=120
+baseline Ar38. v=-0.130319308947, e=0.0122128092558
+get signal data Ar38 AX
+Get data signal Ar38 0.237+/-0.013 len t=400
+adding isotope Ar37 L1
+add baseline dbdet= Ar37. original det= L1
+get baseline data Ar37 L1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1b39b7950> len t=120
+baseline Ar37. v=-0.703351552898, e=0.0097088409758
+get signal data Ar37 L1
+Get data signal Ar37 -0.028+/-0.012 len t=400
+adding isotope Ar36 L2(CDD)
+add baseline dbdet= Ar36. original det= L2(CDD)
+get baseline data Ar36 L2(CDD)
+Get data baseline <pychron.processing.isotope.Baseline object at 0x1b39b7b10> len t=120
+baseline Ar36. v=0.0, e=0.0
+get signal data Ar36 L2(CDD)
+Get data signal Ar36 1.2452+/-0.0024 len t=400
+a-01-F-2380 added analysis time 0.506630897522s
+get handler 192.168.2.2,4567 3
+analysis added to mass spec database
+mass spec save time= 0.642
+persistence save - dvc
+================= post measurement started
+create new session 4716812912
+close session 4716812912
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+get handler 192.168.2.2,4567 3
+Smart pull ahead: 0 behind: 0
+Up-to-date with origin
+add to repo msg=modified - 44c6f8761147de90179e8a3952e48831c78a9a46.json
+add to repo msg=modified - -F-2380.json
+get handler 192.168.2.2,4567 3
+add to repo msg=modified - -F-2380.dat.json
+add to repo msg=modified - -F-2380.blan.json
+add to repo msg=modified - -F-2380.inte.json
+get handler 129.138.12.153,1061 3
+add to repo msg=modified - -F-2380.icfa.json
+get handler 192.168.2.2,4567 3
+add to repo msg=modified - -F-2380.base.json
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air171/a-01/tags/-F-2380.tags.json
+add to repo msg=modified - -F-2380.peak.json
+add to repo msg=modified - -F-2380.extr.json
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/Felix_air171/a-01/monitor/-F-2380.moni.json
+commit message=<COLLECTION>
+get handler 192.168.2.2,4567 3
+add to repo msg=modified - -F-2380.inte.json
+add to repo msg=modified - -F-2380.base.json
+commit message=<ISOEVO> default collection fits
+get handler 192.168.2.2,4567 3
+add to repo msg=modified - -F-2380.blan.json
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+commit message=<BLANKS> preceding ba-01-F-886
+get handler 192.168.2.2,4567 3
+add to repo msg=modified - -F-2380.icfa.json
+commit message=<ICFactor> default
+get handler 192.168.2.2,4567 3
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x1af3fef50>
+pushing to remote=origin, url=https://github.com
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 192.168.2.2,4567 3
+get handler 192.168.2.2,4567 3
+no changes to meta repo
+get handler 192.168.2.2,4567 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+get handler 129.138.12.153,1061 3
+create new session 4716812912
+add association Felix_air171
+get identifier "a-01-F"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x1b67791d0>
+close session 4716812912
+================= post measurement finished
+get handler 192.168.2.2,4567 3
+01:31:39 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+loading system conditionals post_run_actions
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+loading queue conditionals post_run_terminations
+loading system conditionals post_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Checking default post run terminations n=1
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+01:31:39 -- ******* Post Run Check Passed *******
+01:31:39 -- Automated run a-01-F-2380 success duration: 821.817 s
+----------------- finish -----------------
+----------------- stop -----------------
+retroactive repository identifiers disabled
+finish run. runs completed=44
+update duration runid=a-01-F-2380, duration=821.817160845, md5=da5bc57b
+loading script "felix_analysis400_120_no_save_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_diode.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.00032901763916
+script duration name:analysis400_120_no_save_center seconds:559.0
+loading script "felix_analysis400_120_no_save_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_diode.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.60012054443e-05
+loading script "felix_analysis400_120_no_save_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_diode.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000132083892822
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.19480895996e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=42.0, duration=0.000166893005371
+executed snippet estimated_duration=42.0, duration=0.0108451843262
+script duration name:diode seconds:42.0
+loading script "felix_analysis400_120_no_save_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_diode.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000259160995483
+executed snippet estimated_duration=4.0, duration=0.00778698921204
+Script duration 601.0
+Run total estimated duration= 602.000
+analysis400_120_no_save_center in script context. using previous estimated duration
+script duration name:analysis400_120_no_save_center seconds:559.0
+pump_ms in script context. using previous estimated duration
+diode in script context. using previous estimated duration
+script duration name:diode seconds:42.0
+pump_extraction_line in script context. using previous estimated duration
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+loading script "felix_analysis400_120 no center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_diode.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000195980072021
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+analysis400_120 no center in script context. using previous estimated duration
+script duration name:analysis400_120 no center seconds:559.0
+loading script "felix_analysis400_120 no center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=9.48905944824e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000174999237061
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=0.000156879425049
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000189065933228
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000113964080811
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000104904174805
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000184059143066
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000114917755127
+executed snippet estimated_duration=174.0, duration=0.0266480445862
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+loading script "felix_analysis400_120_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x2.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=559.2304, duration=0.000249862670898
+script duration name:analysis400_120_CDD_center seconds:559.0
+air_x2 in script context. using previous estimated duration
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+analysis400_120_CDD_center in script context. using previous estimated duration
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120_no_save_center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:diode seconds:42.0
+Script duration 601.0
+Run total estimated duration= 602.000
+script duration name:analysis400_120 no center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+script duration name:analysis400_120_CDD_center seconds:559.0
+script duration name:air_x2 seconds:174.0
+Script duration 733.0
+Run total estimated duration= 734.000
+nruns=48 before=0.0, run_dur=30480.0, btw=0.0
+write rem/ex queues
+/Users/obama/PychronDev/experiments/rem/Load1825.rem.txt
+/Users/obama/PychronDev/experiments/rem/Load1825.ex.txt
+doing event level: 3
+add run
